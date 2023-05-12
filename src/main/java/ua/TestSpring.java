@@ -3,16 +3,20 @@ package ua;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml"
         );
 
-        ClassicalMusic classicalMusic = context.getBean("musicBean", ClassicalMusic.class);
-        System.out.println(classicalMusic.getSong());
-
-//        MusicPlayer musicPlayer =  context.getBean("musicPlayer",MusicPlayer.class);
-//        musicPlayer.playMusic();
+//        Music rockMusic = context.getBean("rockMusic", RockMusic.class);
+//        Music classicMusic = context.getBean("classicalMusic", ClassicalMusic.class);
+//
+//        MusicPlayer musicPlayer1 = new MusicPlayer(rockMusic);
+//        MusicPlayer musicPlayer2 = new MusicPlayer(classicMusic);
+//        musicPlayer1.playSong();
+//        musicPlayer2.playSong();
+        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+        musicPlayer.playSong();
         context.close();
     }
 }

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a3c233-c39f-4b01-b9de-9e1991bfeaa0" name="Changes" comment="Start learn spring">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -24,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +52,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save",
     "spring.configuration.checksum": "b0a16efafb94edcf07b247804441c4df",
     "vue.rearranger.settings.migration": "true"
   }
@@ -67,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683724428377</updated>
       <workItem from="1683724430397" duration="3064000" />
-      <workItem from="1683795507577" duration="3381000" />
+      <workItem from="1683795507577" duration="3414000" />
+      <workItem from="1683888482746" duration="1450000" />
     </task>
     <task id="LOCAL-00001" summary="Start learn spring">
       <created>1683728158868</created>
@@ -76,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683728158868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start learn spring">
+      <created>1683799223888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683799223888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

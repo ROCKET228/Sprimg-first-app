@@ -1,19 +1,25 @@
 package ua;
 
+
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class ClassicalMusic implements Music {
-    public void doMyInt() {
-        System.out.println("Init");
-    }
+    List<String> songs = new ArrayList<>();
 
-    public void doMyDestroy() {
-        System.out.println("Destroy");
+
+    {
+        songs.add("Classic songs 1");
+        songs.add("Classic songs 1");
+        songs.add("Classic songs 1");
     }
 
     @Override
-    public String getSong() {
-        return "Classic Music";
+    public List<String> getSong() {
+        return songs;
     }
 }
